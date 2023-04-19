@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="big_gap">34sp</dimen>
+    <dimen name="editext_gap">43dp</dimen>
+    <dimen name="editt_gap">47dp</dimen>
+</resources>
