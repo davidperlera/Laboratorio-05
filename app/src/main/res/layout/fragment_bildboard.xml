@@ -36,6 +36,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <androidx.cardview.widget.CardView
+        app:cardCornerRadius="@dimen/small_gap"
         android:id="@+id/cardView_action_info"
         android:layout_width="match_parent"
         android:layout_height="104dp"
