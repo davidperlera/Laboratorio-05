@@ -76,11 +76,13 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/calification_text_view_bilboard"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:text="@string/calification_category_text"
+                    android:textColor="@android:color/holo_orange_light"
+                    android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="@+id/textView2"
                     app:layout_constraintStart_toStartOf="@+id/textView2"
                     app:layout_constraintTop_toBottomOf="@+id/textView2" />
