@@ -15,3 +15,13 @@ Navigation Component es declarativo y maneja automáticamente el ciclo de vida y
 ### 3. Mencione algunas de las ventajas del Navigation Graph
 
 Navigation Graph proporciona una solución completa y organizada para la navegación en aplicaciones, lo que puede mejorar la calidad y eficiencia del código y la experiencia del usuario.
+
+# Laboratorio-06
+
+### 1. ¿En qué consiste el patrón de diseño Repository? 
+
+Este consiste en aislar la capa de datos de la aplicaciòn, esta capa es la que hace referencia a la parte que controla los datos y la logica de negocio de nuestra aplicacion. Esta separa los componentes visuales, la UI presenta informaciòn de usuario y la capa de datos 
+
+### 2. ¿Qué es el ViewModel?
+
+Es una lògica de empresarial que expone el estado de la UI y esta encapsula la lògica empresarial relacionada. Una de sus ventajas es que almacena en cachè el estado los cuales se mantendran incluso depspues de los cambios que se puedan realizar en la configuraciòn y tampoco tiene que recuperar datos cuando se navege entr actividades, por ejemplo cuando al usar la aplicaciòn se rota la pantalla. ES el intermediario entre la capa de datos Model y entra la capa View que es la capa de interfaz de usuario
