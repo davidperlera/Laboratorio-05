@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:contentDescription="Add_movie"
     android:background="@color/backgroundLayout"
-    tools:context=".BildboardFragment">
+    tools:context=".ui.movie.BildboardFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
