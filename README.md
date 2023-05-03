@@ -25,3 +25,23 @@ Este consiste en aislar la capa de datos de la aplicaciòn, esta capa es la que 
 ### 2. ¿Qué es el ViewModel?
 
 Es una lògica de empresarial que expone el estado de la UI y esta encapsula la lògica empresarial relacionada. Una de sus ventajas es que almacena en cachè el estado los cuales se mantendran incluso depspues de los cambios que se puedan realizar en la configuraciòn y tampoco tiene que recuperar datos cuando se navege entr actividades, por ejemplo cuando al usar la aplicaciòn se rota la pantalla. ES el intermediario entre la capa de datos Model y entra la capa View que es la capa de interfaz de usuario
+
+# Laboratorio-07 
+
+### 1. ¿Qué ventajas tiene el utilizar LiveData?
+
+Las actualizaciones en tiempo real, actividades detenidas para evitar las fallas, garantiza que la UI coincida con el estado de los datos, no tiene figas de memoria y no mas control de ciclo de vida,
+
+### 2. ¿Qué patrón de diseño utiliza LiveData?
+
+ Observer
+
+### 3. Menciona que se debe agregar al Gradle para poder implementar DataBinding
+
+dataBinding{
+  enabled: true
+ }
+
+### 4. ¿Qué es DataBinding? Menciona sus ventajas frente a findViewById
+
+fucion de android que nos permite vincular los elemento de la interfaz de usuari o la UI de una aplicacion directamente a los datos de la aplicacion.
